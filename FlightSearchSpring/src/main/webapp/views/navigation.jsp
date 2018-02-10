@@ -1,0 +1,11 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="nav-brand nav-item nav-link" href="/">Flight Explorer</a>
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="/">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/flights">Flights</a>
+    </li>
+  </ul>
+</nav>

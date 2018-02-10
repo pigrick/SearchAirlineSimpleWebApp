@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+.bgi {
+    background-image: url("http://www.aldogroup.com/img/DREAMS%20TAKE%20FLIGHT/BANNER_DREAMS-TAKE-FLIGHT.jpg");
+    background-repeat: no-repeat;
+}
+body{
+    background-image: url("http://ak4.picdn.net/shutterstock/videos/24196894/thumb/1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}

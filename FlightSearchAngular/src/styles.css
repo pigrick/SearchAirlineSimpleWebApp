@@ -1,0 +1,7 @@
+/* @import '~bootstrap/dist/css/bootstrap.css'; */
+body{
+    background-image: url("http://ak4.picdn.net/shutterstock/videos/24196894/thumb/1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
