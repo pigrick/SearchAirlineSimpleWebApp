@@ -10,7 +10,7 @@ import com.practice.domain.Flight;
 
 @Repository
 public interface FlightRepository extends JpaRepository<Flight, Integer>{
-	public Flight findById(int id);
-	public List<Flight> findByOriginIgnoreCaseLikeAndDestinationIgnoreCaseLikeAndTimeDepartureBetween(
+	public List<Flight> findAllByOrderByOriginAscTimeDepartureAsc();
+	public List<Flight> findByOriginIgnoreCaseLikeAndDestinationIgnoreCaseLikeAndTimeDepartureBetweenOrderByTimeDepartureAsc(
 			String origin, String destination, Date timeDeparturebegin, Date timeDepartureEnd);
 }

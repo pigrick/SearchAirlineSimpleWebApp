@@ -18,11 +18,11 @@ public class FlightService {
 	private FlightRepository flightRepository;
 	
 	public List<Flight> getFlights(){
-		return flightRepository.findAll();
+		return flightRepository.findAllByOrderByOriginAscTimeDepartureAsc();
 	}
 	
 	public List<Flight> getSearchFlights(String origin, String destination, String timeDeparture) throws ParseException{
-		return flightRepository.findByOriginIgnoreCaseLikeAndDestinationIgnoreCaseLikeAndTimeDepartureBetween
+		return flightRepository.findByOriginIgnoreCaseLikeAndDestinationIgnoreCaseLikeAndTimeDepartureBetweenOrderByTimeDepartureAsc
 				("%" + origin + "%", "%" + destination +"%", 
 						new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").parse(timeDeparture + " 00:00:00"),
 						new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").parse(timeDeparture + " 23:59:59"));

@@ -45,8 +45,8 @@
           <td>${flight.origin}</td>
           <td>${flight.destination}</td>
           <td><fmt:formatDate type="date" value="${flight.timeDeparture}" /></td>
-          <td><fmt:formatDate type="date" value="${flight.timeDeparture}" /></td>
-          <td><fmt:formatDate type="time" timeStyle="short" value="${flight.timeArrival}" /></td>
+          <td><fmt:formatDate type="time" timeStyle="short" value="${flight.timeDeparture}" /></td>
+          <td><fmt:formatDate type="date" value="${flight.timeArrival}" /></td>
           <td><fmt:formatDate type="time" timeStyle="short" value="${flight.timeArrival}" /></td>
         </tr>
         </c:forEach>

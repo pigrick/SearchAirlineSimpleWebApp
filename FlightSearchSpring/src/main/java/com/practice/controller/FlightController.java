@@ -41,6 +41,58 @@ public class FlightController {
 				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-18 03:00"), 
 				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-18 05:00"));
 		flightService.save(newFlight);
+		newFlight = new Flight(123, "Delta", "Austin", "New York", 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-18 06:00"), 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-18 09:00"));
+		flightService.save(newFlight);
+		newFlight = new Flight(213, "American Airline", "Austin", "New York", 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-18 13:00"), 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-18 15:00"));
+		flightService.save(newFlight);
+		newFlight = new Flight(333, "United", "Austin", "New York", 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-18 10:00"), 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-18 14:00"));
+		flightService.save(newFlight);
+		newFlight = new Flight(131, "Delta", "Austin", "New York", 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-18 18:00"), 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-18 22:00"));
+		flightService.save(newFlight);
+		newFlight = new Flight(413, "Delta", "Austin", "Los Angeles", 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-18 11:00"), 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-18 15:00"));
+		flightService.save(newFlight);
+		newFlight = new Flight(113, "United", "Austin", "New York", 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-18 13:00"), 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-18 16:00"));
+		flightService.save(newFlight);
+		newFlight = new Flight(443, "American Airline", "Austin", "New York", 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-18 05:00"), 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-18 08:00"));
+		flightService.save(newFlight);
+		newFlight = new Flight(253, "United", "Austin", "Los Angeles", 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-18 01:00"), 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-18 04:00"));
+		flightService.save(newFlight);
+		newFlight = new Flight(283, "Delta", "Austin", "New York", 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-18 11:00"), 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-18 15:00"));
+		flightService.save(newFlight);
+		newFlight = new Flight(331, "United", "Austin", "New York", 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-18 22:00"), 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-19 03:00"));
+		flightService.save(newFlight);
+		newFlight = new Flight(173, "United", "Los Angeles", "Houston", 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-19 03:00"), 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-19 05:00"));
+		flightService.save(newFlight);
+		newFlight = new Flight(155, "United", "Los Angeles", "Houston", 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-19 11:30"), 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-19 15:00"));
+		flightService.save(newFlight);
+		newFlight = new Flight(188, "Delta", "Los Angeles", "Houston", 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-19 03:00"), 
+				new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-02-19 05:00"));
+		flightService.save(newFlight);
 		return "redirect:/flights";
 	}
 }

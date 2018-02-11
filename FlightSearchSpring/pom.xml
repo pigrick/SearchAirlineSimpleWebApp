@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.practice</groupId>
-	<artifactId>FlightSearch</artifactId>
+	<artifactId>FlightSearchSpring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>FlightSearch</name>
+	<name>FlightSearchSpring</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
